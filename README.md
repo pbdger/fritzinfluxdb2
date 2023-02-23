@@ -1,6 +1,6 @@
 # Fritz InfluxDb
 
-Fritz InfluxDb is a tiny daemon written in python to fetch data from a fritz box router and writes it to influxdb2.
+Fritz InfluxDb is a tiny daemon written in python to fetch data from a fritz box router and writes it to Influxdb2.
 
 # Requirements
 * python3.11 or newer
@@ -44,7 +44,7 @@ https://wiki.fhem.de/w/index.php?title=FRITZBOX
 ```
 git clone <this_repo_url>
 cd fritzinfluxdb
-docker build -t fritzinfluxdb .
+docker build -t fritzinfluxdb2 .
 docker run -d -v /PATH/TO/fritzinfluxdb.ini:/app/fritzinfluxdb.ini --name fritzinfluxdb fritzinfluxdb
 ```
 
