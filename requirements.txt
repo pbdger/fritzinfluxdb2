@@ -1,0 +1,2 @@
+fritzconnection==1.11.0
+influxdb-client[ciso]==v1.36.0
